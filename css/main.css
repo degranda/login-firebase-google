@@ -1,0 +1,21 @@
+
+h2 {
+    display: inline-block;
+}
+img {
+    border-radius: 50%;
+    width: 100px;
+    float: right;
+}
+
+#login {
+    display: inline;
+}
+#loggedin {
+    display: none;
+}
+
+
+
+
+

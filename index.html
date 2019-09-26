@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Login Google</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+            <h1>Login Ejemplo con Firebase y Google</h1>
+
+            <section id="login">
+                <button id="login-button">Login con Google</button>
+            </section>
+
+            <section id="loggedin">
+                <h2>Bienvenido <span id="user"></span>!!</h2> 
+                <img id="user-pic" src="" alt="foto de usuario">
+            </section>
+
+
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/6.6.2/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/6.6.2/firebase-auth.js"></script>
+
+        <script>
+            // Your web app's Firebase configuration
+            var firebaseConfig = {
+                apiKey: "AIzaSyCRaPxcv2fxcfpu6we-jyIEH2gzTaki5W4",
+                authDomain: "login-27027.firebaseapp.com",
+                databaseURL: "https://login-27027.firebaseio.com",
+                projectId: "login-27027",
+                storageBucket: "",
+                messagingSenderId: "907870979302",
+                appId: "1:907870979302:web:3a5eae6ea4d3cd9c932727",
+                measurementId: "G-C48F3XCCHB"
+            };
+            // Initialize Firebase
+            firebase.initializeApp(firebaseConfig);
+
+        </script>
+
+        <script src="js/main.js"></script>
+        
+    </body>
+</html>
